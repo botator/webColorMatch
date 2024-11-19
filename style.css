@@ -56,3 +56,24 @@ h1{
     background-color: gray;
     margin: 10px;
 }
+.main{
+    visibility: hidden;
+    display: none;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    
+}
+.startBtn{
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(241, 238, 233);
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+    margin-top: 20%;
+}
+.startBtn:hover{
+    opacity: 0.7;
+}
