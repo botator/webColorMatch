@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div style="display: flex;flex-direction: row;">
+            <button class="pause" onclick="start()"><i class="material-icons">&#xe034;</i></button>
+        <div style="margin-left: auto;">
+            <span class="stat" id="time">
+                Time: 60
+            </span>
+            <span class="stat" id="score">
+                score: 0
+            </span>
+            <span class="stat" id="end">
+
+            </span>
+        </div>
+        </div>
+        <h1>Does the meaning match the text color?</h1>
+        <div class="grid">
+            <div class="grid-item">
+                <h2 class="colors" id="colorname">blue</h2>
+                <p class="sign" >meaning</p>
+            </div>
+            <div class="grid-item">
+                <h2 class="colors" id="colorcolor">yellow</h2>
+                <p class="sign">text color</p>
+            </div>
+        </div>
+        <div class="btns">
+            <button class="noyes" id="no" onclick="yesno()">
+                NO 🠈
+            </button>
+            <button class="noyes" id="yes" onclick="yesno()">
+                🠊 YES
+            </button >
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
