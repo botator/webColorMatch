@@ -8,12 +8,19 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <div class="start">
+    <div class="start" id="start">
         <button class="startBtn" onclick="startt()">
             START
+            
         </button>
+        <p style="color: red;font-size: 40px;font-weight: bold; background-color: rgb(233, 217, 188);"  id="gameover">
+            
+        </p>
+        <p class="final" id="final">
+            
+        </p>
     </div>
-    <div class="main">
+    <div class="main" id="main">
         <div style="display: flex;flex-direction: row;">
             <button class="pause" onclick=""><i class="material-icons">&#xe034;</i></button>
         <div style="margin-left: auto;">
@@ -33,6 +40,11 @@
             <div class="grid-item">
                 <h2 class="colors" id="colorname">black</h2>
                 <p class="sign" >meaning</p>
+            </div>
+            <div class="grid-item">
+                <p style="font-size: 50px;" id="isGood">
+                    
+                </p>
             </div>
             <div class="grid-item">
                 <h2 class="colors" id="colorcolor">black</h2>
